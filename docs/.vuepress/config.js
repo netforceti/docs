@@ -2,7 +2,7 @@ module.exports = {
     title: 'NetForce',
     description: 'Documentação e helpers das aplicações NetForce.',
     head: [
-        ['link', { rel: "shortcut icon", href: "https://static.textilnaweb.com/imgs/favicon_wire.png"}],
+        ['link', { rel: "shortcut icon", href: "https://www.netforce.com.br/img/favicon.png"}],
     ],
     locales: {
         '/': {
