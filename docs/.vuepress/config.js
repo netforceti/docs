@@ -23,10 +23,18 @@ module.exports = {
             { title: "Desenvolvimento", children: [
                 "/dev/",
                 "/dev/sdk.md",                
+                
+                { title: "Aplicativos", children: [
+                    "/dev/portal/",
+                    "/dev/portal/auth.md",                
+                ] },
+                
+                
             ] },
         ],
         nav: [
             { text: 'Guia',             link: '/main.md' },
+            { text: 'Desenvolvimento',  link: '/dev/' },
             { text: 'NetForce',         link: 'http://www.netforce.com.br' },
         ]
     }
