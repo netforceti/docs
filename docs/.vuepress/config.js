@@ -21,7 +21,7 @@ module.exports = {
                 "/main.md"
             ] },
             { title: "Desenvolvedores", children: [
-                "/dev/readme.md",
+                "/dev/main.md",
                 "/dev/sdk.md",                
             ] },
         ],
