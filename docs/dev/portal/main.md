@@ -1,4 +1,4 @@
-# Referência da API - /portal
+# Definições
 
 Esta referência ajuda a implementar a API RESTful NetForce v1. Da aplicação do portal da netforce.
 
