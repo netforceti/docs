@@ -25,6 +25,7 @@ module.exports = {
                 "/dev/sdk.md",                
                 
                 { title: "Aplicativos", children: [
+                    "/dev/apps.md",
                     
                     { title: "Portal", children: [
                         "/dev/portal/",
