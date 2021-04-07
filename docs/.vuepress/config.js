@@ -20,8 +20,8 @@ module.exports = {
             { title: "Guia", children: [
                 "/main.md"
             ] },
-            { title: "Desenvolvedores", children: [
-                "/dev/main.md",
+            { title: "Desenvolvimento", children: [
+                "/dev/",
                 "/dev/sdk.md",                
             ] },
         ],
