@@ -22,12 +22,7 @@ module.exports = {
             ] },
             { title: "Desenvolvedores", children: [
                 "/dev/readme.md",
-                "/dev/sdk.md",
-                { title: "Aplicações", children: [
-                    "/dev/portal/readme.md",
-                    "/dev/portal/auth.md"
-                ] },
-                
+                "/dev/sdk.md",                
             ] },
         ],
         nav: [
