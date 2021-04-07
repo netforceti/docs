@@ -27,7 +27,6 @@ module.exports = {
         ],
         nav: [
             { text: 'Guia',             link: '/main.md' },
-            { text: 'Desenvolvedores',  link: '/dev/readme.md' },
             { text: 'NetForce',         link: 'http://www.netforce.com.br' },
         ]
     }
