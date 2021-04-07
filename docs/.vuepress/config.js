@@ -27,6 +27,7 @@ module.exports = {
                 { title: "Aplicativos", children: [
                     
                     { title: "Portal", children: [
+                        "/dev/portal/",
                         "/dev/portal/auth.md",                
                     ] }
                     
