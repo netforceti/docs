@@ -28,6 +28,7 @@ module.exports = {
                     
                     { title: "Portal", children: [
                         "/dev/portal/main.md",
+                        "/dev/portal/portal.md",
                         "/dev/portal/auth.md",                
                     ] }
                     
