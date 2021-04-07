@@ -20,9 +20,19 @@ module.exports = {
             { title: "Guia", children: [
                 "/main.md"
             ] },
+            { title: "Desenvolvedores", children: [
+                "/dev/readme.md",
+                "/dev/sdk.md",
+                { title: "Aplicações", children: [
+                    "/dev/portal/readme.md",
+                    "/dev/portal/auth.md"
+                ] },
+                
+            ] },
         ],
         nav: [
             { text: 'Guia',             link: '/main.md' },
+            { text: 'Desenvolvedores',  link: '/dev/readme.md' },
             { text: 'NetForce',         link: 'http://www.netforce.com.br' },
         ]
     }
