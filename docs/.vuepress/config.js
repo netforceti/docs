@@ -22,6 +22,7 @@ module.exports = {
             ] },
             { title: "Desenvolvimento", children: [
                 "/dev/",
+                "/dev/erros.md",
                 "/dev/sdk.md",                
                 
                 { title: "Aplicativos", children: [
