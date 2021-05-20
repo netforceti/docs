@@ -25,6 +25,9 @@ module.exports = {
                 "/dev/erros.md",
                 "/dev/sdk.md",                
                 
+                { title: "Sistema", children: require('../dev/api/config.js') },
+                
+                
                 { title: "Aplicativos", children: [
                     
                     { title: "Portal", children: [
