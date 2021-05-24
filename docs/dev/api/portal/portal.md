@@ -1,6 +1,6 @@
 # Informações do portal
 
-Par acarregar as informações e configurações do portal, pode ser utilizado a requisição abaixo:
+Para carregar as informações e configurações do portal, pode ser utilizado a requisição abaixo:
 
 <api method="get" uri="/portal/info" />
 
