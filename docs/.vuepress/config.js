@@ -26,6 +26,7 @@ module.exports = {
                 "/dev/sdk.md",                
                 
                 { title: "Aplicativos", children: require('../dev/api/config.js') },
+                { title: "Theme", children: require('../dev/theme/config.js') },
                 
             ] },
         ],
