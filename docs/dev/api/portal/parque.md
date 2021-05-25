@@ -155,3 +155,19 @@ Exemplo:
   },
 ],
 ```
+
+### Voucher do Pedido (PDF)
+
+Retorna o PDF do voucher do pedido
+
+<api method="get" uri="/portal/parque/bilheteria/pedidos/{pedido_id}/voucher" />
+
+### Requisição
+
+<tag text="portal-key" type="error"/> Deve ser informando o portal-key via header.
+
+### Resposta
+
+Exemplo:
+
+Voucher em formato PDF
