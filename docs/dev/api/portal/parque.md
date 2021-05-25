@@ -64,3 +64,50 @@ Exemplo:
   ]
 }
 ```
+
+## Bilheteria Remota
+
+Algumas funções da bilheteria remota, são possiveis fazer pelo portal, veja a baixo como fazer isso:
+
+### Produtos
+
+Retorna a lista de produtos disponível para o usuário pela data da visita
+
+<api method="get" uri="/portal/parque/bilheteria/produtos" />
+
+### Requisição
+
+Em formato JSON
+
+| atributo   | descrição                                     |
+|:-----------|:----------------------------------------------|
+| dataVisita | A data da visita para retornar os ingressos disponíveis. No formato yyyy-mm-dd <Badge text="obrigatório"/> |
+
+<tag text="portal-key" type="error"/> Deve ser informando o portal-key via header.
+
+### Resposta
+
+Exemplo:
+
+```json
+[
+  {
+    "id": 2,
+    "nome": "Ingresso Adulto",
+    "valor": 35,
+    "atracao": "Entrada"
+  },
+  {
+    "id": 1,
+    "nome": "Ingresso Infantil",
+    "valor": 70,
+    "atracao": "Entrada"
+  },
+  {
+    "id": 1,
+    "nome": "Almoço Adulto",
+    "valor": 25,
+    "atracao": "Restaurante"
+  }
+]
+```
