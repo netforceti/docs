@@ -111,3 +111,47 @@ Exemplo:
   }
 ]
 ```
+
+### Pedidos
+
+Retorna a lista de pedidods realizados pelo usuário.
+
+<api method="get" uri="/portal/parque/bilheteria/pedidos" />
+
+### Requisição
+
+Em formato JSON
+
+| atributo   | descrição                                     |
+|:-----------|:----------------------------------------------|
+| inicio     | Inicio do período para filtrar a emissão dos pedidos. No formato yyyy-mm-dd |
+| termino    | Término do período para filtrar a emissão dos pedidos. No formato yyyy-mm-dd |
+
+<tag text="portal-key" type="error"/> Deve ser informando o portal-key via header.
+
+### Resposta
+
+Exemplo:
+
+```json
+[
+  {
+    "id": 448,
+    "numero": "00120",
+    "cliente_email": "email@cliente.com",
+    "cliente_nome": "Nome do cliente",
+    "emissao": "10/06/2020",
+    "valor": 90,
+    "voucher_link": "https://api...."
+  },
+  {
+    "id": 449,
+    "numero": "00121",
+    "cliente_email": "email@cliente.com",
+    "cliente_nome": "Nome do cliente",
+    "emissao": "10/06/2020",
+    "valor": 90,
+    "voucher_link": "https://api...."
+  },
+],
+```
