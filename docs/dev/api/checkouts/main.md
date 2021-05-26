@@ -4,14 +4,14 @@ Estrutura de checkouts para ser utilizado nos aplicativos e projetos.
 
 ## Adquirentes
 
- - <check :checked="true"> Getnet
- - <check :checked="false"> Cielo
- - <check :checked="false"> Stone
- - <check :checked="false"> PagSeguro
- - <check :checked="false"> PayPal
- - <check :checked="false"> MercadoPago
- - <check :checked="false"> PicPay
- - <check :checked="false"> Pix
+ - <check :checked="true" /> Getnet
+ - <check :checked="false" /> Cielo
+ - <check :checked="false" /> Stone
+ - <check :checked="false" /> PagSeguro
+ - <check :checked="false" /> PayPal
+ - <check :checked="false" /> MercadoPago
+ - <check :checked="false" /> PicPay
+ - <check :checked="false" /> Pix
 
 ## Registrar uma nova transação
 
