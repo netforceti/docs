@@ -82,8 +82,7 @@ Em formato JSON
 | atributo  | descrição                                     |
 |:----------|:----------------------------------------------|
 | email     | E-mail do usuário <Badge text="obrigatório"/> |
-| url       | URL para onde o clique no e-mail irá redirecionar. Ex.: https://www.olamundo.com/auth/$token$ <Badge text="obrigatório"/>  |
-| notificar | Meio que será utilizado para notificar o usuário: `email` ou `sms`  |
+| notificar | Meio que será utilizado para notificar o usuário: `email` ou `sms` (Padrão: `email`)  |
 
 ### Resposta
 

@@ -3,7 +3,7 @@ module.exports = [
     "/dev/api/eventos.md",
     "/dev/api/eventos_sendpulse.md",
     
-    { title: "Portal", children: [
+    /*{ title: "Portal", children: [
         "/dev/api/portal/main.md",
         "/dev/api/portal/portal.md",
         "/dev/api/portal/auth.md",                
@@ -14,5 +14,6 @@ module.exports = [
     { title: "Checkouts", children: [
         "/dev/api/checkouts/main.md",
     ]},
+    */
 
 ];
