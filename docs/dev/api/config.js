@@ -2,6 +2,7 @@ module.exports = [
     "/dev/api/auth.md",
     "/dev/api/eventos.md",
     "/dev/api/eventos_sendpulse.md",
+    "/dev/api/locales.md",
     
     /*{ title: "Portal", children: [
         "/dev/api/portal/main.md",
