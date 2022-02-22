@@ -7,16 +7,16 @@ Na pasta de locales, teremos as bibliotecas de linguagem, nisso deveremos ter al
  - /locales
 
   - /pt_br
-   - /index.js
-   - /auth.js
-   - /pessoas.js
-   - /financeiro.js
+      - /index.js
+      - /auth.js
+      - /pessoas.js
+      - /financeiro.js
 
   - /en
-   - /index.js
-   - /auth.js
-   - /pessoas.js
-   - /financeiro.js
+      - /index.js
+      - /auth.js
+      - /pessoas.js
+      - /financeiro.js
 
   - index.js
 
